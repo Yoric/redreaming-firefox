@@ -1,8 +1,15 @@
-**Codename** *A browser for every hat you wear*
+Codename
+========
 
-**140 Chars Pitch** You are many persons, and you do many things. Firefox can adapt to all of them, automatically
+*A browser for every hat you wear*
 
-**Synopsis**
+140 Chars Pitch
+===============
+
+You are many persons, and you do many things. Firefox can adapt to all of them, automatically
+
+Synopsis
+========
 
 Today's Firefox can be deeply customized thanks to the use of preferences, lightweight themes and add-ons. However, it has two big limitations:
  * much of this customization is reserved to power users;
@@ -15,7 +22,8 @@ This proposal reverses the flow, as follows:
 
 Power Users can keep the old flow or combine both.
 
-**Objectives**
+Objectives
+==========
 
  * Tailor Firefox to the needs of users;
  * Improve security;
