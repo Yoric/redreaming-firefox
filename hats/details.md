@@ -6,6 +6,7 @@ Workflow for casual users
 2. As the user browses, Firefox detects that the user is connecting to banking sites, to gaming sites, to dating sites, etc. At this stage, nothing happens, but Firefox is learning its Hats;
 3. Soon, Firefox starts using Suggested Tiles to offer suggestions: 
   * « For security purposes, do you wish me to setup Firefox to deactivate non-essential add-ons while you are browsing on your bank's website? Here's what you can gain. [Yes/Not Now/Never]» (which is probably implemented by spawning an entire profile for this Hat);
+  * « Do you want to setup a theme for gaming? »
   * « In the future, for performance reasons, do you wish me setup Firefox to pause all other webpages while you're playing? Here's what you can gain.»;
   * « In the future, for privacy reasons, do you wish me to setup Firefox to prevent Facebook from tracking you around the web using your connection data? Here's what you can gain. »;
   * « In the future, for privacy reasons, do you wish me to automatically turn on Privacy mode when you are browsing this dating site? »
@@ -16,7 +17,11 @@ Workflow for casual users
   * As Firefox gains new privacy protection features, Hats that already have some Privacy settings on turn have these features turned on automatically;
   * Some new privacy protection features are developped as add-ons, which appear as Suggested Tiles for Privacy-aware hats;
   * ...
+6. To switch between Hats, the user may use the Window menu, or a shortcut. Additionally, opening a tab using a bookmark, or the search bar, or typing a url, causes the appropriate Hat to be picked;
+   _(or the current Hat if no Hat can be determined? Or should that be the Vanilla Hat?)_
+7. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats;
   
+
   Technical aspects
   =================
   What is NOT shared between Hats
@@ -37,7 +42,7 @@ Workflow for casual users
     * **Firefox Core**, which is used to run all Hats;
     * **Bookmarks**, which also have the side-effect of switching the user to the appropriate Hat when they are used;
     * **Site-to-Hat association**, which let Firefox switch the user to the appropriate Hat when browsing to given site;
-    * **Saved passwords**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
+    * **Password Manager**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
 
 
   What is shared between devices
