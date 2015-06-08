@@ -24,7 +24,7 @@ Workflow for casual users
     * **Cookies**, as this would hurt privacy and security protection of this proposal;
     * **Cache**, as this would hurt privacy and security protection of this proposal;
     * **Plug-in instances and data**, as this would hurt privacy and security protection of this proposal;
-    * **Passwords and Identities**,  as this would hurt privacy and security protection of this proposal;
+    * **Identities and Sessions**,  as this would hurt privacy and security protection of this proposal;
     * **History**, as this would hurt privacy of this proposal;
     * **Preferences**, as we wish to use Hats-specific Preferences for customization purposes;
     * **Add-ons**, as we wish to  Hats-specific add-ons for customization purposes;
@@ -37,6 +37,7 @@ Workflow for casual users
     * **Firefox Core**, which is used to run all Hats;
     * **Bookmarks**, which also have the side-effect of switching the user to the appropriate Hat when they are used;
     * **Site-to-Hat association**, which let Firefox switch the user to the appropriate Hat when browsing to given site;
+    * **Saved passwords**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
 
 
   What is shared between devices
