@@ -2,12 +2,15 @@
 
 Here you can put ideas for hats and what they might entail.
 
+Some features may appear in several hats.
+
 ### Firefox Privacy
 
 We ship all the privacy stuff!
 
 * Tracking protection
 * Partner with a VPN provider
+* Password-lock Firefox after a period of inactivity
 * ???
 
 ### Firefox Focus
@@ -90,4 +93,5 @@ For all your socializing?  This is like 50% of everything on the web, I don't ev
 
 People want to separate work from other activities.
 
-What would that mean for the browser?  I don't know.
+* No distractions?
+* ?

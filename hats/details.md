@@ -39,7 +39,7 @@ Workflow for casual users
 
   What is shared between Hats
   ---------------------------
-    * **Firefox Core**, which is used to run all Hats;
+    * **Firefox Core**, which is used to run all Hats (so, Firefox Developer Edition, as it currently exists, is *not* a Hat of Firefox Stable);
     * **Bookmarks**, which also have the side-effect of switching the user to the appropriate Hat when they are used;
     * **Site-to-Hat association**, which let Firefox switch the user to the appropriate Hat when browsing to given site;
     * **Password Manager**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
