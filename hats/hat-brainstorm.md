@@ -79,6 +79,7 @@ Games!  Let's show off ASM.js more.
 * Get our partner to support Hello as a social overlay on games?
 * Social support from our partner: if you have Firefox Gaming open, you are gaming, it's not like you just left a tab open in the background.  So you are "online" for gaming.
 * Easy full-screening, etc.  A little more permissive on these permissions, because we expect you want a captive game experience, not that you are just being phished all the time.
+* [Universal pause](https://github.com/ryanries/UniversalPauseButton)
 * Save game built into the browser?  Freeze state hard.  Might be good for naive/casual games (e.g., a puzzle game).
 
 ### Firefox Social
