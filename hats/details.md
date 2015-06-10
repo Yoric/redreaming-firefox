@@ -21,6 +21,12 @@ Workflow for casual users
    _(or the current Hat if no Hat can be determined? Or should that be the Vanilla Hat?)_
 7. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats;
 
+Variant workflow
+================
+
+1. User visits getfirefox.com and downloads a Hat.
+2. Hat is installed (along existing Firefox, if any).
+3. Proceed as above.
 
   Technical aspects
   =================
