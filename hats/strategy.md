@@ -50,3 +50,16 @@ With a segmented product some of these choices will be easy.  Firefox Private wo
 Maybe Firefox Private would be the launching point for delivering these features more widely across these products.  If we do so, we can do so feeling more confident about the impact and reaction of the feature.
 
 The same is true for integrations with proprietary services.  Some of these may make very clear sense in specific contexts, but receive stiff pushback from our community that has many implicit assumptions about the purpose of Firefox.
+
+### Acquisition funnel
+
+The acquisition funnel maybe looks something like this:
+
+![Funnel](http://1g1uem2nc4jy1gzhn943ro0gz50.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Screenshot-2015-05-31-19.50.54.png)
+
+From [
+The Next Feature Fallacy: The fallacy that the next new feature will suddenly make people use your product](http://andrewchen.co/the-next-feature-fallacy-the-fallacy-that-the-next-new-feature-will-suddenly-make-people-use-your-product/).  Replace "signup" with "download".
+
+We might ask, what tools do we have to decrease our attrition at each of these stages?  A user is more likely to continue through these steps if we can provide compelling value, which may include explaining that value.  What does this user want as he or she enters the funnel?  We don't know very much right now about a specific user, and *anything we know* will be wiped out at the point of download. Only by customizing the downloads to the funnel entry point can we continue to offer specific value targeted at a user's desires or expectations.  This proposal *is* that customization of the download.
+
+Note that while we talk about "Firefox Core" being common among all *Hats*, the download doesn't have to map 1-to-1 to our current approach.  Assuming we use a stub installer, we can detect if Firefox Core is already installed and reuse that, and downloading a specific edition could be equivalent to indicating through a Firefox tool that you want to use a different Hat.  Downloads are just the most familiar entry point to a new program, and a "program" is how we expect people to understand the separate launchers, profiles, and visual identities of the Hats.
