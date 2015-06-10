@@ -60,7 +60,7 @@ The acquisition funnel might look something like this:
 ![Funnel](http://1g1uem2nc4jy1gzhn943ro0gz50.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Screenshot-2015-05-31-19.50.54.png)
 
 *From [
-The Next Feature Fallacy: The fallacy that the next new feature will suddenly make people use your product](http://andrewchen.co/the-next-feature-fallacy-the-fallacy-that-the-next-new-feature-will-suddenly-make-people-use-your-product/).  Replace "signup" with "download"*
+The Next Feature Fallacy: The fallacy that the next new feature will suddenly make people use your product](http://andrewchen.co/the-next-feature-fallacy-the-fallacy-that-the-next-new-feature-will-suddenly-make-people-use-your-product/).  Replace "signup" with "download".  Some comments [here](https://via.hypothes.is/http://andrewchen.co/the-next-feature-fallacy-the-fallacy-that-the-next-new-feature-will-suddenly-make-people-use-your-product/)*
 
 We might ask, what tools do we have to decrease our attrition at each of these stages?  A user is more likely to continue through these steps if we can provide compelling value, which may include explaining that value.  What does this user want as he or she enters the funnel?  We don't know very much right now about a specific user, and *anything we know* will be wiped out at the point of download. Only by customizing the downloads to the funnel entry point can we continue to offer specific value targeted at a user's desires or expectations.  This proposal *is* that customization of the download.
 
