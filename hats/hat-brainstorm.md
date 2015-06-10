@@ -72,7 +72,9 @@ For your banking and other things where you are concerned about security
 * Picky about HTTPS
 * Picky about HTTP
 * Entire profile password protected, encrypted
+* Does *not* share password manager with other Hats
 * Archiving tools so you can keep your own records.  E.g., save-to-PDF with categorizing built in.
+* It's OK to put in security features that break some (maybe even many) sites.  You don't try to access a site with Firefox Secure unless you *demand* that it be secure.
 
 ### Firefox Gaming
 

@@ -34,7 +34,11 @@ Objectives
  * Understand our users' goals;
  * Create a venue for experimentation;
 
-Open Questions
-==============
+Open Questions / Concerns
+=========================
 
  * Do we start with general Firefox and suggest Hats, or do we market specific Hats directly?
+ * Are we adding a cognitive load by giving people choice where before there was a single product?  Are we forcing people to ask burdensome questions like "should I be viewing this site in Firefox Focus or Firefox Secure?"
+ * Is the engineering hard?  [Probably not as hard as it seems](https://github.com/Yoric/redreaming-firefox/blob/master/hats/details.md#implementation)
+ * How many Hats can we expect one user to install?
+ * What would be a good set of Hats to develop? (both are research topics)
