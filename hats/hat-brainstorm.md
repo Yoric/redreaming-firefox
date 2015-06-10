@@ -95,3 +95,10 @@ People want to separate work from other activities.
 
 * No distractions?
 * ?
+
+### Firefox Movies/Music
+
+* Bookmarking movies, position in a movie.
+* Movie downloader?
+* Reduce Firefox to an picture-in-picture style overlay.
+
