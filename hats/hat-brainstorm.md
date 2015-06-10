@@ -99,7 +99,7 @@ People want to separate work from other activities.
 * Add "project" as a tab categorizing metaphor.
 * ?
 
-### Firefox Movies/Music
+### Firefox Media/Movies/Music
 
 * Bookmarking movies, position in a movie.
 * Movie downloader?
