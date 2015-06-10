@@ -78,12 +78,13 @@ For your banking and other things where you are concerned about security
 
 Games!  Let's show off ASM.js more.
 
-* We have a game center with aggregated scores, use, etc.  (Maybe partner to make this.)
+* Include game center with aggregated scores, use, etc.  (Maybe partner to make this.)
 * Get our partner to support Hello as a social overlay on games?
 * Social support from our partner: if you have Firefox Gaming open, you are gaming, it's not like you just left a tab open in the background.  So you are "online" for gaming.
 * Easy full-screening, etc.  A little more permissive on these permissions, because we expect you want a captive game experience, not that you are just being phished all the time.
 * [Universal pause](https://github.com/ryanries/UniversalPauseButton)
-* Save game built into the browser?  Freeze state hard.  Might be good for naive/casual games (e.g., a puzzle game).
+* Save game built into the browser?  Freeze state at the JS level.  Might be good for naive/casual games (e.g., a puzzle game).
+* Set yourself a time limit or go-to-bed time.
 
 ### Firefox Social
 
@@ -94,11 +95,16 @@ For all your socializing?  This is like 50% of everything on the web, I don't ev
 People want to separate work from other activities.
 
 * No distractions?
+* Partner with a task/to-do related partners.  E.g., Evernote.
+* Add "project" as a tab categorizing metaphor.
 * ?
 
 ### Firefox Movies/Music
 
 * Bookmarking movies, position in a movie.
 * Movie downloader?
-* Reduce Firefox to an picture-in-picture style overlay.
-
+* Reduce Firefox to a picture-in-picture style overlay.
+* Partner with a service that can do cross-product search.  E.g., I want to watch *Quest For Fire*, what streaming service that I use offers that?
+* Partner with a review site, to allow quick access to reviews based on the titles referenced in a page.
+* When viewing media, make note of the text on the page, and the text on the previous page.  Use that to provide searching on IMDB with the heuristically detected names.
+* Media-focused bookmarking.  Bookmarks would be more like a library than a bookmark.  Or like a reading list focused on media.
