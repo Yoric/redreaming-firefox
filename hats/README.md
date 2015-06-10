@@ -19,7 +19,7 @@ We have observed that people naturally use more than one browser, with different
 
 This proposal reverses the flow, as follows:
  * Firefox observes and learns usage patterns (e.g. gaming, banking, social networking, web development, etc.);
- * Firefox spawns usage-specific instances (a.k.a. **Hats** or Personas);
+ * Firefox spawns usage-specific instances (a.k.a. **Hats** or, of course, Personas);
  * Using Suggested Tiles, Firefox offers task-tailored customizations (e.g. elevated privacy settings, activating gaming-specific add-ons or experimental flags, neutralizing all non-essential add-ons for gaming for performance purposes, neutralizing all non-essential add-ons for banking for security purposes, ...)
 
 Power Users can keep the old flow or combine both.
