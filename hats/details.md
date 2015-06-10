@@ -32,7 +32,7 @@ Workflow for casual users
     * **Identities and Sessions**,  as this would hurt privacy and security protection of this proposal;
     * **History**, as this would hurt privacy of this proposal;
     * **Preferences**, as we wish to use Hats-specific Preferences for customization purposes;
-    * **Add-ons**, as we wish to Hats-specific add-ons for customization purposes;
+    * **Add-ons**, as we wish to use Hats-specific add-ons for customization purposes;
     * **Desktop Icon**, as we wish to make it easy for users to launch specific Hats;
     * **Task Manager Icon**/**Task Switcher Icon**, as we wish to make it easy for user to switch to specific Hats;
 
