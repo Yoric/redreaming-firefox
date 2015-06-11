@@ -110,3 +110,7 @@ People want to separate work from other activities.
 * Partner with a review site, to allow quick access to reviews based on the titles referenced in a page.
 * When viewing media, make note of the text on the page, and the text on the previous page.  Use that to provide searching on IMDB with the heuristically detected names.
 * Media-focused bookmarking.  Bookmarks would be more like a library than a bookmark.  Or like a reading list focused on media.
+
+### Firefox without add-ons
+
+Sometimes, experience on a website is broken by some add-on (e.g. sites detecting Flash Video Downloader or AdBlock Plus, or broken by one or the other). A Hat without add-ons could be used as a "compatibility mode", to let users browse the site without having to change browser.
