@@ -28,37 +28,37 @@ Variant workflow
 2. Hat is installed (along existing Firefox, if any).
 3. Proceed as above.
 
-  Technical aspects
-  =================
-  What is NOT shared between Hats
-  -------------------------------
-    * **Cookies**, as this would hurt privacy and security protection of this proposal;
-    * **Cache**, as this would hurt privacy and security protection of this proposal;
-    * **Plug-in instances and data**, as this would hurt privacy and security protection of this proposal;
-    * **Identities and Sessions**,  as this would hurt privacy and security protection of this proposal;
-    * **History**, as this would hurt privacy of this proposal;
-    * **Preferences**, as we wish to use Hats-specific Preferences for customization purposes;
-    * **Add-ons**, as we wish to use Hats-specific add-ons for customization purposes;
-    * **Desktop Icon**, as we wish to make it easy for users to launch specific Hats;
-    * **Task Manager Icon**/**Task Switcher Icon**, as we wish to make it easy for user to switch to specific Hats;
+Technical aspects
+=================
+What is NOT shared between Hats
+-------------------------------
+ * **Cookies**, as this would hurt privacy and security protection of this proposal;
+ * **Cache**, as this would hurt privacy and security protection of this proposal;
+ * **Plug-in instances and data**, as this would hurt privacy and security protection of this proposal;
+ * **Identities and Sessions**,  as this would hurt privacy and security protection of this proposal;
+ * **History**, as this would hurt privacy of this proposal;
+ * **Preferences**, as we wish to use Hats-specific Preferences for customization purposes;
+ * **Add-ons**, as we wish to use Hats-specific add-ons for customization purposes;
+ * **Desktop Icon**, as we wish to make it easy for users to launch specific Hats;
+ * **Task Manager Icon**/**Task Switcher Icon**, as we wish to make it easy for user to switch to specific Hats;
 
 
-  What is shared between Hats
-  ---------------------------
-    * **Firefox Core**, which is used to run all Hats (so, Firefox Developer Edition, as it currently exists, is *not* a Hat of Firefox Stable);
-    * **Bookmarks**, which also have the side-effect of switching the user to the appropriate Hat when they are used;
-    * **Site-to-Hat association**, which let Firefox switch the user to the appropriate Hat when browsing to given site;
-    * **Password Manager**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
+What is shared between Hats
+---------------------------
+ * **Firefox Core**, which is used to run all Hats (so, Firefox Developer Edition, as it currently exists, is *not* a Hat of Firefox Stable);
+ * **Bookmarks**, which also have the side-effect of switching the user to the appropriate Hat when they are used;
+ * **Site-to-Hat association**, which let Firefox switch the user to the appropriate Hat when browsing to given site;
+ * **Password Manager**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
 
 
-  What is shared between devices
-  ------------------------------
-    * Each Hat is Synced individually across devices;
+What is shared between devices
+------------------------------
+ * Each Hat is Synced individually across devices;
 
-  Implementation
-  ==============
+Implementation
+==============
 
-  Each Hat is technically simple:
+Each Hat is technically simple:
 
   1. A Hat is a separate profile.  We set up Sync in some fashion to copy information between profiles.
   2. A Hat is Firefox Core plus a number of addons.
