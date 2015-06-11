@@ -42,3 +42,12 @@ Open Questions / Concerns
  * Is the engineering hard?  [Probably not as hard as it seems](https://github.com/Yoric/redreaming-firefox/blob/master/hats/details.md#implementation)
  * How many Hats can we expect one user to install?
  * What would be a good set of Hats to develop? (both are research topics)
+
+Reasons Against
+===============
+
+ * Instead we should make Firefox the best Firefox it can be.  In other words, we should continue to focus on features and quality aspects that are universal.
+ * We *should* focus on a niche or segment, but we should choose just one segment.
+ * We lack the resources to do more than one thing (be it Firefox General, or Firefox focused on one niche).
+ * Breaking up the Firefox brand into individual products will be confusing.
+ 
