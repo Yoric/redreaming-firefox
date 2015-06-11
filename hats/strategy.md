@@ -53,6 +53,13 @@ Maybe Firefox Private would be the launching point for delivering these features
 
 The same is true for integrations with proprietary services.  Some of these may make very clear sense in specific contexts, but receive stiff pushback from our community that has many implicit assumptions about the purpose of Firefox.
 
+### Telling stories
+
+Years ago, Mozilla has switched to a fast release cycle, with one major version of Firefox every 6 weeks. This improved considerably the quality of code and the speed at which we could fix bug and address issues. More recently, the need has arisen to also proceed to bi-yearly releases that are better vessels for marketing and storytelling. Unfortunately, the experience of developers is that these bi-yearly releases were detrimental to code quality.
+
+It may be possible to channel the mechanism of Hats to let us develop, experiment and release features as add-ons, on a calendar adapted to marketing, in parallel to the development of Firefox Core.
+
+
 ### Acquisition funnel
 
 The acquisition funnel might look something like this:
