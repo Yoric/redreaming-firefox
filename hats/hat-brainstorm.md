@@ -93,6 +93,12 @@ Games!  Let's show off ASM.js more.
 
 For all your socializing?  This is like 50% of everything on the web, I don't even...
 
+#### Firefox for Facebook
+
+* Default search engine searches on Facebook.
+* Statusbar (online/busy/...) accessible directly from the UI.
+* Notifications turned on for Facebook.
+
 ### Firefox Work
 
 People want to separate work from other activities.
