@@ -69,3 +69,20 @@ Each Hat is technically simple:
   7. A power user can recreate or curate the experience through managing the addons.  Though in some Hats addon management may be disabled (such as Firefox Simple – don't install the AddonManagementDisabler addon if you don't want this ;)
 
   The platform changes required for this proposal would primarily be in keeping the Hats in sync (to the degree we wish to), and features to move sites between Hats (explicitly or automatically).  And of course we'll be leaning heavily on addons, so they have to work well.
+
+Precedence
+----------
+
+Firefox already has a way to install applications that look independent, [WebRT](https://wiki.mozilla.org/Apps/WebRT).
+
+The basic technique it uses:
+
+  1. As part of the build process it builds a stub installer ([Mac](https://github.com/mozilla/gecko-dev/tree/master/webapprt/mac), [Windows](https://github.com/mozilla/gecko-dev/tree/master/webapprt/win), [GTK](https://github.com/mozilla/gecko-dev/tree/master/webapprt/gtk))
+  2. There is code to [copy the installers](https://github.com/mozilla/gecko-dev/tree/master/toolkit/webapps), invoked by [some UI](https://github.com/mozilla/gecko-dev/blob/master/browser/modules/WebappManager.jsm)
+  3. After the stub is copied, its icon is changed (platform specific), it is renamed, and the webapp ID is saved alongside the stub
+  4. When you launch the stub, it finds Firefox and launches libxul, which does most of the work
+  5. The stub also decides on an app-specific profile path.  This profile gets created by libxul if necessary.  You can't control the profile when using WebRT launchers.
+  6. The [Firefox launcher](https://github.com/mozilla/gecko-dev/blob/master/browser/app/nsBrowserApp.cpp) does a bit more, maybe related to crash stats and such, not sure.  WebRT's launcher is an independent implementation.
+  7. The stub then asks libxul to load [webapp.xul](https://github.com/mozilla/gecko-dev/tree/master/webapprt/content), as opposed to browser.xul.  Maybe pointing to browser.xul would be all its taks to turn it back into a normal browser?
+  8. There may be code (maybe in webapp.js) that on first run sets up the profile.  I can't locate this code however.
+  9. Currently there's no data sharing between WebRT apps and any other profiles.  The WebRT team has talked about it some.
