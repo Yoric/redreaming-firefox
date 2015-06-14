@@ -16,17 +16,19 @@ Workflow for casual users
   * ...
 4. If a user accepts the suggestion of the Suggested Tile, this Tile becomes a Permanent Tile;
 5. Clicking on either the Suggested Tile or the Permanent Tile switches to a *Firefox Hat*;
-6. A *Firefox Hat* is basically an instance of Firefox window configured specifically for one website or a collection of websites;
+6. A *Firefox Hat* is basically an instance of Firefox window with its own visual theme and configured specifically for one website or a collection of websites;
 7. Each Hat behaves as if it were upgraded semi-independently, with new features/settings that match specific needs:
   * As Firefox gains new WebVR features, Gaming-oriented Hats receive a Suggested Tile that offers users the ability to turn on experimental features;
   * As Firefox gains new privacy protection features, Privacy-oriented Hats turn have these features turned on automatically;
   * Individual Hats can receive further features that are not turned on automatically but appear as Suggested Tiles;
   * ...
-8. To switch between Hats, the user may use:
+8. Several tabs can be active at once. To switch between Hats, the user may use:
   * the Permanent Tile;
   * the Window menu (even if the Hat hasn't been loaded yet);
   * a keyboard shortcut;
   * the OS's process-switching mechanism (e.g. Ctrl-Tab, the Dock, etc.);
+  * the icon in the Start Menu, the Applications Menu, etc;
+  * a built-in page `about:hats`;
 9. Also, following a link, opening a bookmark, typing a URL for a websites that is associated to a Hat switches to that Hat, while following a link/bookmark/URL for a website that is not associated switches back to the Vanilla Hat;
 10. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats. Bookmarks can be moved between Hats using essentially the same mechanism;
 
@@ -44,6 +46,7 @@ Variant workflow (Power Users)
 2. User moves a Tab or a Bookmark to a new Hat by right-clicking and selecting `Send To... > New Hat... > Blank`;
 3. User sets up new Hat as she wants, using add-ons, themes, ...;
 4. At some point, user picks a name for the Hat;
+5. Hats may be managed through a built-in page `about:hats`;
 
 Technical aspects
 =================
@@ -62,7 +65,7 @@ What is NOT shared between Hats
 
 What is shared between Hats
 ---------------------------
- * **Firefox Core**, which is used to run all Hats (so, Firefox Developer Edition, as it currently exists, is *not* a Hat of Firefox Stable);
+ * **Firefox Core**, which is used to run all Hats (so, Firefox Developer Edition is a Hat that can apply to  Firefox Release, Firefox Beta, Firefox Aurora or Firefox Nightly);
  * **Bookmarks**, which also have the side-effect of switching the user to the appropriate Hat when they are used;
  * **Site-to-Hat association**, which let Firefox switch the user to the appropriate Hat when browsing to given site;
  * **Password Manager**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
