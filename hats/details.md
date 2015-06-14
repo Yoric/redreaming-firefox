@@ -2,31 +2,48 @@
 Workflow for casual users
 =========================
 
-1. On first install, start with a Vanilla Firefox (except for power users who wish to customize this manually) ;
+1. On first install, start with a Vanilla Firefox ;
 2. As the user browses, Firefox detects that the user is connecting to banking sites, to gaming sites, to dating sites, etc. At this stage, nothing happens, but Firefox is learning its Hats;
-3. Soon, Firefox starts using Suggested Tiles to offer suggestions:
-  * « For security purposes, do you wish me to setup Firefox to deactivate non-essential add-ons while you are browsing on your bank's website? Here's what you can gain. [Yes/Not Now/Never]» (which is probably implemented by spawning an entire profile for this Hat);
-  * « Do you want to setup a theme for gaming? »
-  * « In the future, for performance reasons, do you wish me setup Firefox to pause all other webpages while you're playing? Here's what you can gain.»;
-  * « In the future, for privacy reasons, do you wish me to setup Firefox to prevent Facebook from tracking you around the web using your connection data? Here's what you can gain. »;
-  * « In the future, for privacy reasons, do you wish me to automatically turn on Privacy mode when you are browsing this dating site? »
+3. Once Firefox has learnt a bit about the user's behavior, a Suggested Tile offers to setup Firefox automatically:
+  * « Firefox for Banking, by Mozilla »
+    * Details: « You use Firefox to access your banking site. Firefox can configure itself to improve your security when you are browsing this site. This is entirely automatic and this does not affect your experience with other websites. »
+  * « Firefox for Facebook, by Mozilla »
+    * Details: « You use Facebook. Firefox can configure itself to improve your experience with Facebook, while better protecting your privacy. This is entirely automatic and this does not affect your experience with other websites. »
+  * « Firefox for Gaming, by Mozilla »
+    * Details: « You use Firefox for gaming. Firefox can configure itself to provide the best gaming experience. This is entirely automatic and this does not affect your experience with other websites. »
+  * « Firefox for Privacy, by Mozilla »
+    * Details: « You use Firefox for browsing a dating site. Firefox can configure itself to improve your privacy when you are browsing this site. This is entirely automatic and this does not affect your experience with other websites. »
   * ...
-4. At this stage, we have a multi-headed Firefox, each head wearing a different Hat. Firefox learns how websites need to be opened with specific Hats;
-5. Each Hat behaves as if it were upgraded semi-independently, with new features/settings that match specific needs:
+4. If a user accepts the suggestion of the Suggested Tile, this Tile becomes a Permanent Tile;
+5. Clicking on either the Suggested Tile or the Permanent Tile switches to a *Firefox Hat*;
+6. A *Firefox Hat* is basically an instance of Firefox window configured specifically for one website or a collection of websites;
+7. Each Hat behaves as if it were upgraded semi-independently, with new features/settings that match specific needs:
   * As Firefox gains new WebVR features, Gaming-oriented Hats receive a Suggested Tile that offers users the ability to turn on experimental features;
-  * As Firefox gains new privacy protection features, Hats that already have some Privacy settings on turn have these features turned on automatically;
-  * Some new privacy protection features are developped as add-ons, which appear as Suggested Tiles for Privacy-aware hats;
+  * As Firefox gains new privacy protection features, Privacy-oriented Hats turn have these features turned on automatically;
+  * Individual Hats can receive further features that are not turned on automatically but appear as Suggested Tiles;
   * ...
-6. To switch between Hats, the user may use the Window menu, or a shortcut. Additionally, opening a tab using a bookmark, or the search bar, or typing a url, causes the appropriate Hat to be picked;
-   _(or the current Hat if no Hat can be determined? Or should that be the Vanilla Hat?)_
-7. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats;
+8. To switch between Hats, the user may use:
+  * the Permanent Tile;
+  * the Window menu (even if the Hat hasn't been loaded yet);
+  * a keyboard shortcut;
+  * the OS's process-switching mechanism (e.g. Ctrl-Tab, the Dock, etc.);
+9. Also, following a link, opening a bookmark, typing a URL for a websites that is associated to a Hat switches to that Hat, while following a link/bookmark/URL for a website that is not associated switches back to the Vanilla Hat;
+10. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats. Bookmarks can be moved between Hats using essentially the same mechanism;
 
 Variant workflow
 ================
 
-1. User visits getfirefox.com and downloads a Hat.
+1. User visits getfirefox.com and pick a Hat in the collection of Hats.
 2. Hat is installed (along existing Firefox, if any).
 3. Proceed as above.
+
+Variant workflow (Power Users)
+==============================
+
+1. User starts with Vanilla Firefox;
+2. User moves a Tab or a Bookmark to a new Hat by right-clicking and selecting `Send To... > New Hat... > Blank`;
+3. User sets up new Hat as she wants, using add-ons, themes, ...;
+4. At some point, user picks a name for the Hat;
 
 Technical aspects
 =================
