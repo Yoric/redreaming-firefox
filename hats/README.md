@@ -34,6 +34,13 @@ Objectives
  * Understand our users' goals;
  * Create a venue for experimentation;
 
+Related Work
+============
+
+ * [Security: Contextual Identity Project: Containers](https://wiki.mozilla.org/Security/Contextual_Identity_Project/Containers).  The Contextual Identity Project has been looking at ways to give users access to their different identities through the browser.  The Containers proposal suggests giving users task-specific browser windows, each running with its own identity information or profile.
+ * [Profilist](https://addons.mozilla.org/en-US/firefox/addon/profilist/).  This addon lets you create, switch, and manage your profiles.  There's some support for things like [app icons](https://www.youtube.com/watch?v=fKw-BNWMyQM) as well.
+ * [WebRT](https://wiki.mozilla.org/Apps/WebRT).  This is what allows you already to "install" Open Web Apps as stand-alone desktop apps.  Some of what it does might be applicable to "installing" Hats.
+
 Open Questions / Concerns
 =========================
 
