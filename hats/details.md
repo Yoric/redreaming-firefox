@@ -32,7 +32,7 @@ Workflow for casual users
   * the Window menu (even if the Hat hasn't been loaded yet);
   * a keyboard shortcut;
   * the OS's process-switching mechanism (e.g. Ctrl-Tab, the Dock, etc.);
-  * the icon in the Start Menu, the Applications Menu, etc;
+  * the icon in the Start Menu, the Applications Folder, etc;
   * a built-in page `about:hats`;
 11. Also, following a link, opening a bookmark, typing a URL for a websites that is associated to a Hat switches to that Hat, while following a link/bookmark/URL for a website that is not associated switches back to the Vanilla Hat;
 12. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats. Bookmarks can be moved between Hats using essentially the same mechanism;
@@ -40,7 +40,7 @@ Workflow for casual users
 Variant workflow
 ================
 
-1. User visits getfirefox.com and pick a Hat in the collection of Hats.
+1. User visits getfirefox.com and picks a Hat in the collection of Hats.
 2. Hat is installed (along existing Firefox, if any).
 3. Proceed as above.
 
@@ -70,7 +70,7 @@ What is NOT shared between Hats
 
 What is shared between Hats
 ---------------------------
- * **Firefox Core**, which is used to run all Hats (so, Firefox Developer Edition is a Hat that can apply to  Firefox Release, Firefox Beta, Firefox Aurora or Firefox Nightly);
+ * **Firefox Core**, which is used to run all Hats (so, Firefox Developer Edition could be reimagined as a Hat that can apply to Firefox Release, Firefox Beta, Firefox Aurora or Firefox Nightly);
  * **Bookmarks**, which also have the side-effect of switching the user to the appropriate Hat when they are used;
  * **Site-to-Hat association**, which let Firefox switch the user to the appropriate Hat when browsing to given site;
  * **Password Manager**, so it's easy to choose to use the same identity across multiple Hats (but you opt-in to identities through the login process);
