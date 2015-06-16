@@ -85,6 +85,9 @@ Open questions
 
 **Q** How can we make sure that users who have been switched automatically to a Hat know how to switch back to the previous Hat? With tabs, it is simple, because they are still visible, but since Hats are in distinct windows, they are harder to find for casual users with limited knowledge of windows.
 
+**Q** How are we going to use Facebook, Google, etc. to login to a website?
+
+**Q** Is this going to break the `like` button?
 
 Implementation
 ==============
