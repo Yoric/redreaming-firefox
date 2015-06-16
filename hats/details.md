@@ -17,20 +17,25 @@ Workflow for casual users
 4. If a user accepts the suggestion of the Suggested Tile, this Tile becomes a Permanent Tile;
 5. Clicking on either the Suggested Tile or the Permanent Tile switches to a *Firefox Hat*;
 6. A *Firefox Hat* is basically an instance of Firefox window with its own visual theme and configured specifically for one website or a collection of websites;
-7. Each Hat behaves as if it were upgraded semi-independently, with new features/settings that match specific needs:
-  * As Firefox gains new WebVR features, Gaming-oriented Hats receive a Suggested Tile that offers users the ability to turn on experimental features;
-  * As Firefox gains new privacy protection features, Privacy-oriented Hats turn have these features turned on automatically;
+7. As Firefox receives new features, some of the features may be hidden by default:
+   * features that look complex (e.g. Developer Tools) or not directly related to browsing (e.g. Hello);
+   * features that could break some websites or our revenue model (e.g. aggressive Privacy protection, auto-unloading tabs, https everywhere, ad-blocking, etc.);
+   * features that are specifically designed to remain hidden by default (e.g. disabling add-ons);
+   * features that are still considered somewhat experimental (e.g. Reading List, WebVR, ...)
+8. Each Hat behaves as if it were upgraded semi-independently, with new features/settings that match specific needs:
+  * As Firefox gains new Gaming-oriented features (e.g. ability to put other tabs on pause, or TeamSpeak Hello), these features are added to Gaming-oriented Hats, but not activated by default in other Hats;
+  * As Firefox gains new aggressive privacy protection features, some of these features are turned on automatically on Privacy-oriented Hats;
   * Individual Hats can receive further features that are not turned on automatically but appear as Suggested Tiles;
   * ...
-8. Several tabs can be active at once. To switch between Hats, the user may use:
+9. Several Hats can be active at once. To switch between Hats, the user may use:
   * the Permanent Tile;
   * the Window menu (even if the Hat hasn't been loaded yet);
   * a keyboard shortcut;
   * the OS's process-switching mechanism (e.g. Ctrl-Tab, the Dock, etc.);
   * the icon in the Start Menu, the Applications Menu, etc;
   * a built-in page `about:hats`;
-9. Also, following a link, opening a bookmark, typing a URL for a websites that is associated to a Hat switches to that Hat, while following a link/bookmark/URL for a website that is not associated switches back to the Vanilla Hat;
-10. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats. Bookmarks can be moved between Hats using essentially the same mechanism;
+11. Also, following a link, opening a bookmark, typing a URL for a websites that is associated to a Hat switches to that Hat, while following a link/bookmark/URL for a website that is not associated switches back to the Vanilla Hat;
+12. Tabs can be moved between Hats with drag/drop or by right-clicking on a tab and selecting `Send To...`. Menu `Send To...` contains the list of all Hats that have been created, as well as a submenu `New...` offering specific templates (e.g. Gaming, Banking, Blank) for manually creating Hats. Bookmarks can be moved between Hats using essentially the same mechanism;
 
 Variant workflow
 ================
