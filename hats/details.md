@@ -80,6 +80,12 @@ What is shared between devices
 ------------------------------
  * Each Hat is Synced individually across devices;
 
+Open questions
+==============
+
+**Q** How can we make sure that users who have been switched automatically to a Hat know how to switch back to the previous Hat? With tabs, it is simple, because they are still visible, but since Hats are in distinct windows, they are harder to find for casual users with limited knowledge of windows.
+
+
 Implementation
 ==============
 
@@ -91,7 +97,7 @@ Each Hat is technically simple:
   4. At least one of the addons in a Hat should change the browser visually.  Maybe simply a theme.  It should be obvious which kind of Firefox you have open when you look at the window.
   5. The lightest sort of addons need only override default settings.
   6. A team dedicated to a specific Hat curates and develops the addons and partnerships.  Partnerships also take the form of addons.
-  7. A power user can recreate or curate the experience through managing the addons.  Though in some Hats addon management may be disabled (such as Firefox Simple – don't install the AddonManagementDisabler addon if you don't want this ;)
+  7. A power user can recreate or curate the experience through managing the addons.  Though in some Hats addon management may be disabled (such as Firefox Simple – don't install the AddonManagementDisabler addon if you don't want this ;)
 
   The platform changes required for this proposal would primarily be in keeping the Hats in sync (to the degree we wish to), and features to move sites between Hats (explicitly or automatically).  And of course we'll be leaning heavily on addons, so they have to work well.
 
